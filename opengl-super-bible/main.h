@@ -27,4 +27,25 @@ namespace Triangle {
   int main(int argc, char* argv[]);
 }
 
+// Chapter03
+namespace Blending {
+  int main(int argc, char* argv[]);
+}
+
+namespace GeoTest {
+  int main(int argc, char* argv[]);
+}
+
+namespace Primitives {
+  int main(int argc, char* argv[]);
+}
+
+namespace Scissor {
+  int main(int argc, char* argv[]);
+}
+
+namespace Smoother {
+  int main(int argc, char* argv[]);
+}
+
 #endif /* main_h */

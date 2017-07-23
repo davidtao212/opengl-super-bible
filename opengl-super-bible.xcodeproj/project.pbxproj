@@ -20,6 +20,11 @@
 		428696A41F24B8CA000ED753 /* Bounce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696A11F24B8CA000ED753 /* Bounce.cpp */; };
 		428696A51F24B8CA000ED753 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696A21F24B8CA000ED753 /* Move.cpp */; };
 		428696A61F24B8CA000ED753 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696A31F24B8CA000ED753 /* Triangle.cpp */; };
+		428696AD1F24C2D3000ED753 /* Blending.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696A81F24C2D3000ED753 /* Blending.cpp */; };
+		428696AE1F24C2D3000ED753 /* GeoTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696A91F24C2D3000ED753 /* GeoTest.cpp */; };
+		428696AF1F24C2D3000ED753 /* Primitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696AA1F24C2D3000ED753 /* Primitives.cpp */; };
+		428696B01F24C2D3000ED753 /* Scissor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696AB1F24C2D3000ED753 /* Scissor.cpp */; };
+		428696B11F24C2D3000ED753 /* Smoother.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696AC1F24C2D3000ED753 /* Smoother.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,11 @@
 		428696A11F24B8CA000ED753 /* Bounce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bounce.cpp; path = Chapter02/Bounce.cpp; sourceTree = "<group>"; };
 		428696A21F24B8CA000ED753 /* Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Move.cpp; path = Chapter02/Move.cpp; sourceTree = "<group>"; };
 		428696A31F24B8CA000ED753 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = Chapter02/Triangle.cpp; sourceTree = "<group>"; };
+		428696A81F24C2D3000ED753 /* Blending.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Blending.cpp; path = Chapter03/Blending.cpp; sourceTree = "<group>"; };
+		428696A91F24C2D3000ED753 /* GeoTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GeoTest.cpp; path = Chapter03/GeoTest.cpp; sourceTree = "<group>"; };
+		428696AA1F24C2D3000ED753 /* Primitives.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Primitives.cpp; path = Chapter03/Primitives.cpp; sourceTree = "<group>"; };
+		428696AB1F24C2D3000ED753 /* Scissor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scissor.cpp; path = Chapter03/Scissor.cpp; sourceTree = "<group>"; };
+		428696AC1F24C2D3000ED753 /* Smoother.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Smoother.cpp; path = Chapter03/Smoother.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 				428696981F24B730000ED753 /* main.cpp */,
 				428696831F24B1D6000ED753 /* Chapter01 */,
 				4286969A1F24B80B000ED753 /* Chapter02 */,
+				428696A71F24C2B8000ED753 /* Chapter03 */,
 				428696781F24B165000ED753 /* Assets.xcassets */,
 				4286967D1F24B165000ED753 /* Info.plist */,
 				428696721F24B165000ED753 /* Supporting Files */,
@@ -123,6 +134,18 @@
 				428696A31F24B8CA000ED753 /* Triangle.cpp */,
 			);
 			name = Chapter02;
+			sourceTree = "<group>";
+		};
+		428696A71F24C2B8000ED753 /* Chapter03 */ = {
+			isa = PBXGroup;
+			children = (
+				428696A81F24C2D3000ED753 /* Blending.cpp */,
+				428696A91F24C2D3000ED753 /* GeoTest.cpp */,
+				428696AA1F24C2D3000ED753 /* Primitives.cpp */,
+				428696AB1F24C2D3000ED753 /* Scissor.cpp */,
+				428696AC1F24C2D3000ED753 /* Smoother.cpp */,
+			);
+			name = Chapter03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,11 +221,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428696AE1F24C2D3000ED753 /* GeoTest.cpp in Sources */,
+				428696AD1F24C2D3000ED753 /* Blending.cpp in Sources */,
 				428696A51F24B8CA000ED753 /* Move.cpp in Sources */,
+				428696AF1F24C2D3000ED753 /* Primitives.cpp in Sources */,
 				428696991F24B730000ED753 /* main.cpp in Sources */,
 				428696A41F24B8CA000ED753 /* Bounce.cpp in Sources */,
+				428696B11F24C2D3000ED753 /* Smoother.cpp in Sources */,
 				428696A61F24B8CA000ED753 /* Triangle.cpp in Sources */,
 				428696891F24B1E6000ED753 /* Block.cpp in Sources */,
+				428696B01F24C2D3000ED753 /* Scissor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +385,7 @@
 				428696821F24B165000ED753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
