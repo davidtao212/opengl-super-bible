@@ -13,6 +13,7 @@
 
 #include "main.h"
 
+namespace Ch02 {
 namespace Move {
 
 GLBatch	squareBatch;
@@ -143,4 +144,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
   
+}
 }

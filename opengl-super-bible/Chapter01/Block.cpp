@@ -20,6 +20,7 @@
 
 #include "main.h"
 
+namespace Ch01 {
 namespace Block {
 
 /////////////////////////////////////////////////////////////////////////////////
@@ -633,4 +634,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
   
+}
 }

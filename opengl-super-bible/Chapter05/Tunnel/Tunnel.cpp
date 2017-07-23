@@ -19,6 +19,7 @@
 
 #include "main.h"
 
+namespace Ch05 {
 namespace Tunnel {
 
 GLShaderManager		shaderManager;			// Shader Manager
@@ -313,4 +314,4 @@ int main(int argc, char *argv[])
     }
     
 }
-
+}

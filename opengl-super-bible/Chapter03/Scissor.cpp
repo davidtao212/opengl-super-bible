@@ -14,6 +14,7 @@
 
 #include "main.h"
 
+namespace Ch03 {
 namespace Scissor {
 
 ///////////////////////////////////////////////////////////
@@ -70,4 +71,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
   
+}
 }

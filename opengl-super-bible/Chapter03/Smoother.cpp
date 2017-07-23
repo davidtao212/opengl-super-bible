@@ -14,6 +14,7 @@
 
 #include "main.h"
 
+namespace Ch03 {
 namespace Smoother {
 
 GLShaderManager shaderManager;
@@ -235,4 +236,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
 
+}
 }

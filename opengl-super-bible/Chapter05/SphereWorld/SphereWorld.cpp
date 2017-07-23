@@ -23,6 +23,7 @@
 
 #include "main.h"
 
+namespace Ch05 {
 namespace SphereWorld {
 
 #define NUM_SPHERES 50
@@ -315,4 +316,5 @@ int main(int argc, char* argv[])
     return 0;
     }
   
+}
 }

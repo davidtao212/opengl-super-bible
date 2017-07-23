@@ -10,11 +10,14 @@
 #define main_h
 
 // Chapter01
+namespace Ch01 {
 namespace Block {
   int main(int argc, char* argv[]);
 }
+}
 
 // Chapter02
+namespace Ch02 {
 namespace Bounce {
   int main(int argc, char* argv[]);
 }
@@ -26,8 +29,10 @@ namespace Move {
 namespace Triangle {
   int main(int argc, char* argv[]);
 }
+}
 
 // Chapter03
+namespace Ch03 {
 namespace Blending {
   int main(int argc, char* argv[]);
 }
@@ -47,8 +52,10 @@ namespace Scissor {
 namespace Smoother {
   int main(int argc, char* argv[]);
 }
+}
 
 // Chapter05
+namespace Ch05 {
 namespace Anisotropic {
   int main(int argc, char* argv[]);
 }
@@ -63,6 +70,7 @@ namespace SphereWorld {
 
 namespace Tunnel {
   int main(int argc, char* argv[]);
+}
 }
 
 

@@ -14,6 +14,7 @@
 
 #include "main.h"
 
+namespace Ch03 {
 namespace Blending {
 
 GLBatch	squareBatch;
@@ -211,4 +212,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
   
+}
 }

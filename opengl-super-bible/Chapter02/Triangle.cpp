@@ -13,6 +13,7 @@
 
 #include "main.h"
 
+namespace Ch02 {
 namespace Triangle {
 
 GLBatch	triangleBatch;
@@ -90,4 +91,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
   
+}
 }

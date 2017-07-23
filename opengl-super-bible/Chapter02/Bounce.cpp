@@ -13,6 +13,7 @@
 
 #include "main.h"
 
+namespace Ch02 {
 namespace Bounce {
 
 GLBatch	squareBatch;
@@ -137,4 +138,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
 
+}
 }

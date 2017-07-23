@@ -9,6 +9,6 @@
 #include "main.h"
 
 int main(int argc, char * argv[]) {
-  return Anisotropic::main(argc, argv);
+  return Ch05::Anisotropic::main(argc, argv);
 }
 

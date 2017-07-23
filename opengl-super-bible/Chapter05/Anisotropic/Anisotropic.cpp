@@ -19,6 +19,7 @@
 
 #include "main.h"
 
+namespace Ch05 {
 namespace Anisotropic {
 
 GLShaderManager		shaderManager;			// Shader Manager
@@ -324,5 +325,6 @@ int main(int argc, char *argv[])
     return 0;
     }
     
+}
 }
 

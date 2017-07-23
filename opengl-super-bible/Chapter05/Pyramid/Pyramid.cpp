@@ -20,6 +20,7 @@
 
 #include "main.h"
 
+namespace Ch05 {
 namespace Pyramid {
 
 /////////////////////////////////////////////////////////////////////////////////
@@ -293,4 +294,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
   
+}
 }

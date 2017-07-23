@@ -20,6 +20,7 @@
 
 #include "main.h"
 
+namespace Ch03 {
 namespace Primitives {
 
 /////////////////////////////////////////////////////////////////////////////////
@@ -377,4 +378,5 @@ int main(int argc, char* argv[])
 	return 0;
 	}
   
+}
 }

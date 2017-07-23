@@ -18,6 +18,7 @@
 
 #include "main.h"
 
+namespace Ch03 {
 namespace GeoTest {
 
 GLFrame             viewFrame;
@@ -184,4 +185,5 @@ int main(int argc, char* argv[])
 	return 0;
     }
 
+}
 }
