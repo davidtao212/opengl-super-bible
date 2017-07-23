@@ -9,6 +9,6 @@
 #include "main.h"
 
 int main(int argc, char * argv[]) {
-  return GeoTest::main(argc, argv);
+  return Anisotropic::main(argc, argv);
 }
 

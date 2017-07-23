@@ -25,6 +25,20 @@
 		428696AF1F24C2D3000ED753 /* Primitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696AA1F24C2D3000ED753 /* Primitives.cpp */; };
 		428696B01F24C2D3000ED753 /* Scissor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696AB1F24C2D3000ED753 /* Scissor.cpp */; };
 		428696B11F24C2D3000ED753 /* Smoother.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696AC1F24C2D3000ED753 /* Smoother.cpp */; };
+		428696BB1F24D61F000ED753 /* Anisotropic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696B71F24D61F000ED753 /* Anisotropic.cpp */; };
+		428696BC1F24D61F000ED753 /* brick.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696B81F24D61F000ED753 /* brick.tga */; };
+		428696BD1F24D61F000ED753 /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696B91F24D61F000ED753 /* ceiling.tga */; };
+		428696BE1F24D61F000ED753 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696BA1F24D61F000ED753 /* floor.tga */; };
+		428696C11F24D62C000ED753 /* Pyramid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696BF1F24D62C000ED753 /* Pyramid.cpp */; };
+		428696C21F24D62C000ED753 /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696C01F24D62C000ED753 /* stone.tga */; };
+		428696C71F24D63D000ED753 /* Marble.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696C31F24D63D000ED753 /* Marble.tga */; };
+		428696C81F24D63D000ED753 /* Marslike.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696C41F24D63D000ED753 /* Marslike.tga */; };
+		428696C91F24D63D000ED753 /* MoonLike.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696C51F24D63D000ED753 /* MoonLike.tga */; };
+		428696CA1F24D63D000ED753 /* SphereWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696C61F24D63D000ED753 /* SphereWorld.cpp */; };
+		428696CF1F24D649000ED753 /* brick.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696CB1F24D649000ED753 /* brick.tga */; };
+		428696D01F24D649000ED753 /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696CC1F24D649000ED753 /* ceiling.tga */; };
+		428696D11F24D649000ED753 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696CD1F24D649000ED753 /* floor.tga */; };
+		428696D21F24D649000ED753 /* Tunnel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696CE1F24D649000ED753 /* Tunnel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +63,20 @@
 		428696AA1F24C2D3000ED753 /* Primitives.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Primitives.cpp; path = Chapter03/Primitives.cpp; sourceTree = "<group>"; };
 		428696AB1F24C2D3000ED753 /* Scissor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scissor.cpp; path = Chapter03/Scissor.cpp; sourceTree = "<group>"; };
 		428696AC1F24C2D3000ED753 /* Smoother.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Smoother.cpp; path = Chapter03/Smoother.cpp; sourceTree = "<group>"; };
+		428696B71F24D61F000ED753 /* Anisotropic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Anisotropic.cpp; path = Chapter05/Anisotropic/Anisotropic.cpp; sourceTree = "<group>"; };
+		428696B81F24D61F000ED753 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = brick.tga; path = Chapter05/Anisotropic/brick.tga; sourceTree = "<group>"; };
+		428696B91F24D61F000ED753 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = ceiling.tga; path = Chapter05/Anisotropic/ceiling.tga; sourceTree = "<group>"; };
+		428696BA1F24D61F000ED753 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = floor.tga; path = Chapter05/Anisotropic/floor.tga; sourceTree = "<group>"; };
+		428696BF1F24D62C000ED753 /* Pyramid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pyramid.cpp; path = Chapter05/Pyramid/Pyramid.cpp; sourceTree = "<group>"; };
+		428696C01F24D62C000ED753 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = stone.tga; path = Chapter05/Pyramid/stone.tga; sourceTree = "<group>"; };
+		428696C31F24D63D000ED753 /* Marble.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = Marble.tga; path = Chapter05/SphereWorld/Marble.tga; sourceTree = "<group>"; };
+		428696C41F24D63D000ED753 /* Marslike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = Marslike.tga; path = Chapter05/SphereWorld/Marslike.tga; sourceTree = "<group>"; };
+		428696C51F24D63D000ED753 /* MoonLike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = MoonLike.tga; path = Chapter05/SphereWorld/MoonLike.tga; sourceTree = "<group>"; };
+		428696C61F24D63D000ED753 /* SphereWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SphereWorld.cpp; path = Chapter05/SphereWorld/SphereWorld.cpp; sourceTree = "<group>"; };
+		428696CB1F24D649000ED753 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = brick.tga; path = Chapter05/Tunnel/brick.tga; sourceTree = "<group>"; };
+		428696CC1F24D649000ED753 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = ceiling.tga; path = Chapter05/Tunnel/ceiling.tga; sourceTree = "<group>"; };
+		428696CD1F24D649000ED753 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = floor.tga; path = Chapter05/Tunnel/floor.tga; sourceTree = "<group>"; };
+		428696CE1F24D649000ED753 /* Tunnel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tunnel.cpp; path = Chapter05/Tunnel/Tunnel.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +118,7 @@
 				428696831F24B1D6000ED753 /* Chapter01 */,
 				4286969A1F24B80B000ED753 /* Chapter02 */,
 				428696A71F24C2B8000ED753 /* Chapter03 */,
+				428696B21F24D346000ED753 /* Chapter05 */,
 				428696781F24B165000ED753 /* Assets.xcassets */,
 				4286967D1F24B165000ED753 /* Info.plist */,
 				428696721F24B165000ED753 /* Supporting Files */,
@@ -146,6 +175,59 @@
 				428696AC1F24C2D3000ED753 /* Smoother.cpp */,
 			);
 			name = Chapter03;
+			sourceTree = "<group>";
+		};
+		428696B21F24D346000ED753 /* Chapter05 */ = {
+			isa = PBXGroup;
+			children = (
+				428696B31F24D35E000ED753 /* Anisotropic */,
+				428696B41F24D36F000ED753 /* Pyramid */,
+				428696B51F24D37D000ED753 /* SphereWorld */,
+				428696B61F24D38B000ED753 /* Tunnel */,
+			);
+			name = Chapter05;
+			sourceTree = "<group>";
+		};
+		428696B31F24D35E000ED753 /* Anisotropic */ = {
+			isa = PBXGroup;
+			children = (
+				428696B71F24D61F000ED753 /* Anisotropic.cpp */,
+				428696B81F24D61F000ED753 /* brick.tga */,
+				428696B91F24D61F000ED753 /* ceiling.tga */,
+				428696BA1F24D61F000ED753 /* floor.tga */,
+			);
+			name = Anisotropic;
+			sourceTree = "<group>";
+		};
+		428696B41F24D36F000ED753 /* Pyramid */ = {
+			isa = PBXGroup;
+			children = (
+				428696BF1F24D62C000ED753 /* Pyramid.cpp */,
+				428696C01F24D62C000ED753 /* stone.tga */,
+			);
+			name = Pyramid;
+			sourceTree = "<group>";
+		};
+		428696B51F24D37D000ED753 /* SphereWorld */ = {
+			isa = PBXGroup;
+			children = (
+				428696C31F24D63D000ED753 /* Marble.tga */,
+				428696C41F24D63D000ED753 /* Marslike.tga */,
+				428696C51F24D63D000ED753 /* MoonLike.tga */,
+				428696C61F24D63D000ED753 /* SphereWorld.cpp */,
+			);
+			name = SphereWorld;
+			sourceTree = "<group>";
+		};
+		428696B61F24D38B000ED753 /* Tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				428696CB1F24D649000ED753 /* brick.tga */,
+				428696CC1F24D649000ED753 /* ceiling.tga */,
+				428696CD1F24D649000ED753 /* floor.tga */,
+				428696CE1F24D649000ED753 /* Tunnel.cpp */,
+			);
+			name = Tunnel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,10 +289,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				428696791F24B165000ED753 /* Assets.xcassets in Resources */,
+				428696C21F24D62C000ED753 /* stone.tga in Resources */,
 				4286968D1F24B1E6000ED753 /* floor.tga in Resources */,
+				428696BC1F24D61F000ED753 /* brick.tga in Resources */,
 				4286968C1F24B1E6000ED753 /* Block6.tga in Resources */,
 				4286968A1F24B1E6000ED753 /* Block4.tga in Resources */,
+				428696D11F24D649000ED753 /* floor.tga in Resources */,
+				428696D01F24D649000ED753 /* ceiling.tga in Resources */,
+				428696C81F24D63D000ED753 /* Marslike.tga in Resources */,
+				428696BE1F24D61F000ED753 /* floor.tga in Resources */,
+				428696C91F24D63D000ED753 /* MoonLike.tga in Resources */,
 				4286968B1F24B1E6000ED753 /* Block5.tga in Resources */,
+				428696CF1F24D649000ED753 /* brick.tga in Resources */,
+				428696BD1F24D61F000ED753 /* ceiling.tga in Resources */,
+				428696C71F24D63D000ED753 /* Marble.tga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +315,18 @@
 			files = (
 				428696AE1F24C2D3000ED753 /* GeoTest.cpp in Sources */,
 				428696AD1F24C2D3000ED753 /* Blending.cpp in Sources */,
+				428696C11F24D62C000ED753 /* Pyramid.cpp in Sources */,
 				428696A51F24B8CA000ED753 /* Move.cpp in Sources */,
+				428696BB1F24D61F000ED753 /* Anisotropic.cpp in Sources */,
 				428696AF1F24C2D3000ED753 /* Primitives.cpp in Sources */,
 				428696991F24B730000ED753 /* main.cpp in Sources */,
 				428696A41F24B8CA000ED753 /* Bounce.cpp in Sources */,
 				428696B11F24C2D3000ED753 /* Smoother.cpp in Sources */,
 				428696A61F24B8CA000ED753 /* Triangle.cpp in Sources */,
 				428696891F24B1E6000ED753 /* Block.cpp in Sources */,
+				428696CA1F24D63D000ED753 /* SphereWorld.cpp in Sources */,
 				428696B01F24C2D3000ED753 /* Scissor.cpp in Sources */,
+				428696D21F24D649000ED753 /* Tunnel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

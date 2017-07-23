@@ -48,4 +48,22 @@ namespace Smoother {
   int main(int argc, char* argv[]);
 }
 
+// Chapter05
+namespace Anisotropic {
+  int main(int argc, char* argv[]);
+}
+
+namespace Pyramid {
+  int main(int argc, char* argv[]);
+}
+
+namespace SphereWorld {
+  int main(int argc, char* argv[]);
+}
+
+namespace Tunnel {
+  int main(int argc, char* argv[]);
+}
+
+
 #endif /* main_h */
