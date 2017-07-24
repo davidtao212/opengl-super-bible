@@ -73,5 +73,51 @@ namespace Tunnel {
 }
 }
 
+// Chapter06
+namespace Ch06 {
+namespace ADSGouraud {
+  int main(int argc, char* argv[]);
+}
+
+namespace ADSPhong {
+  int main(int argc, char* argv[]);
+}
+
+namespace DiffuseLight {
+  int main(int argc, char* argv[]);
+}
+
+namespace Dissolve {
+  int main(int argc, char* argv[]);
+}
+
+namespace FlatShader {
+  int main(int argc, char* argv[]);
+}
+
+namespace LitTexture {
+  int main(int argc, char* argv[]);
+}
+
+namespace ProvokingVertex {
+  int main(int argc, char* argv[]);
+}
+
+namespace ShadedTriangle {
+  int main(int argc, char* argv[]);
+}
+
+namespace TexturedTriangle {
+  int main(int argc, char* argv[]);
+}
+
+namespace ToonShader {
+  int main(int argc, char* argv[]);
+}
+
+namespace Triangle {
+  int main(int argc, char* argv[]);
+}
+}
 
 #endif /* main_h */

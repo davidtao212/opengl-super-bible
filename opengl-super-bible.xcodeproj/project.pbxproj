@@ -39,6 +39,42 @@
 		428696D01F24D649000ED753 /* ceiling.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696CC1F24D649000ED753 /* ceiling.tga */; };
 		428696D11F24D649000ED753 /* floor.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696CD1F24D649000ED753 /* floor.tga */; };
 		428696D21F24D649000ED753 /* Tunnel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696CE1F24D649000ED753 /* Tunnel.cpp */; };
+		428696E21F261EF3000ED753 /* ADSGouraud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696DF1F261EF3000ED753 /* ADSGouraud.cpp */; };
+		428696E31F261EF3000ED753 /* ADSGouraud.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428696E01F261EF3000ED753 /* ADSGouraud.fp */; };
+		428696E41F261EF3000ED753 /* ADSGouraud.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428696E11F261EF3000ED753 /* ADSGouraud.vp */; };
+		428696E81F261F02000ED753 /* ADSPhong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696E51F261F02000ED753 /* ADSPhong.cpp */; };
+		428696E91F261F02000ED753 /* ADSPhong.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428696E61F261F02000ED753 /* ADSPhong.fp */; };
+		428696EA1F261F02000ED753 /* ADSPhong.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428696E71F261F02000ED753 /* ADSPhong.vp */; };
+		428696EE1F261F11000ED753 /* DiffuseLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696EB1F261F11000ED753 /* DiffuseLight.cpp */; };
+		428696EF1F261F11000ED753 /* DiffuseLight.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428696EC1F261F11000ED753 /* DiffuseLight.fp */; };
+		428696F01F261F11000ED753 /* DiffuseLight.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428696ED1F261F11000ED753 /* DiffuseLight.vp */; };
+		428696F51F261F1D000ED753 /* Clouds.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428696F11F261F1D000ED753 /* Clouds.tga */; };
+		428696F61F261F1D000ED753 /* Dissolve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696F21F261F1D000ED753 /* Dissolve.cpp */; };
+		428696F71F261F1D000ED753 /* Dissolve.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428696F31F261F1D000ED753 /* Dissolve.fp */; };
+		428696F81F261F1D000ED753 /* Dissolve.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428696F41F261F1D000ED753 /* Dissolve.vp */; };
+		428696FC1F261F2B000ED753 /* FlatShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428696F91F261F2B000ED753 /* FlatShader.cpp */; };
+		428696FD1F261F2B000ED753 /* FlatShader.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428696FA1F261F2B000ED753 /* FlatShader.fp */; };
+		428696FE1F261F2B000ED753 /* FlatShader.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428696FB1F261F2B000ED753 /* FlatShader.vp */; };
+		428697031F261F39000ED753 /* ADSTexture.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428696FF1F261F39000ED753 /* ADSTexture.fp */; };
+		428697041F261F39000ED753 /* ADSTexture.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428697001F261F39000ED753 /* ADSTexture.vp */; };
+		428697051F261F39000ED753 /* CoolTexture.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428697011F261F39000ED753 /* CoolTexture.tga */; };
+		428697061F261F39000ED753 /* LitTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428697021F261F39000ED753 /* LitTexture.cpp */; };
+		4286970A1F261F47000ED753 /* ProvokingVertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428697071F261F47000ED753 /* ProvokingVertex.cpp */; };
+		4286970B1F261F47000ED753 /* ProvokingVertex.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428697081F261F47000ED753 /* ProvokingVertex.fp */; };
+		4286970C1F261F47000ED753 /* ProvokingVertex.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428697091F261F47000ED753 /* ProvokingVertex.vp */; };
+		428697101F261F54000ED753 /* ShadedIdentity.fp in Resources */ = {isa = PBXBuildFile; fileRef = 4286970D1F261F54000ED753 /* ShadedIdentity.fp */; };
+		428697111F261F54000ED753 /* ShadedIdentity.vp in Resources */ = {isa = PBXBuildFile; fileRef = 4286970E1F261F54000ED753 /* ShadedIdentity.vp */; };
+		428697121F261F54000ED753 /* ShadedTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4286970F1F261F54000ED753 /* ShadedTriangle.cpp */; };
+		428697181F261F8A000ED753 /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = 428697141F261F8A000ED753 /* stone.tga */; };
+		428697191F261F8A000ED753 /* TexturedIdentity.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428697151F261F8A000ED753 /* TexturedIdentity.fp */; };
+		4286971A1F261F8A000ED753 /* TexturedIdentity.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428697161F261F8A000ED753 /* TexturedIdentity.vp */; };
+		4286971B1F261F8A000ED753 /* TexturedTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428697171F261F8A000ED753 /* TexturedTriangle.cpp */; };
+		4286971F1F261FA6000ED753 /* ToonShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4286971C1F261FA6000ED753 /* ToonShader.cpp */; };
+		428697201F261FA6000ED753 /* ToonShader.fp in Resources */ = {isa = PBXBuildFile; fileRef = 4286971D1F261FA6000ED753 /* ToonShader.fp */; };
+		428697211F261FA6000ED753 /* ToonShader.vp in Resources */ = {isa = PBXBuildFile; fileRef = 4286971E1F261FA6000ED753 /* ToonShader.vp */; };
+		428697251F261FB2000ED753 /* Identity.fp in Resources */ = {isa = PBXBuildFile; fileRef = 428697221F261FB2000ED753 /* Identity.fp */; };
+		428697261F261FB2000ED753 /* Identity.vp in Resources */ = {isa = PBXBuildFile; fileRef = 428697231F261FB2000ED753 /* Identity.vp */; };
+		428697271F261FB2000ED753 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 428697241F261FB2000ED753 /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +113,42 @@
 		428696CC1F24D649000ED753 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = ceiling.tga; path = Chapter05/Tunnel/ceiling.tga; sourceTree = "<group>"; };
 		428696CD1F24D649000ED753 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = floor.tga; path = Chapter05/Tunnel/floor.tga; sourceTree = "<group>"; };
 		428696CE1F24D649000ED753 /* Tunnel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tunnel.cpp; path = Chapter05/Tunnel/Tunnel.cpp; sourceTree = "<group>"; };
+		428696DF1F261EF3000ED753 /* ADSGouraud.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ADSGouraud.cpp; path = Chapter06/ADSGouraud/ADSGouraud.cpp; sourceTree = "<group>"; };
+		428696E01F261EF3000ED753 /* ADSGouraud.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADSGouraud.fp; path = Chapter06/ADSGouraud/ADSGouraud.fp; sourceTree = "<group>"; };
+		428696E11F261EF3000ED753 /* ADSGouraud.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADSGouraud.vp; path = Chapter06/ADSGouraud/ADSGouraud.vp; sourceTree = "<group>"; };
+		428696E51F261F02000ED753 /* ADSPhong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ADSPhong.cpp; path = Chapter06/ADSPhong/ADSPhong.cpp; sourceTree = "<group>"; };
+		428696E61F261F02000ED753 /* ADSPhong.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADSPhong.fp; path = Chapter06/ADSPhong/ADSPhong.fp; sourceTree = "<group>"; };
+		428696E71F261F02000ED753 /* ADSPhong.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADSPhong.vp; path = Chapter06/ADSPhong/ADSPhong.vp; sourceTree = "<group>"; };
+		428696EB1F261F11000ED753 /* DiffuseLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DiffuseLight.cpp; path = Chapter06/DiffuseLight/DiffuseLight.cpp; sourceTree = "<group>"; };
+		428696EC1F261F11000ED753 /* DiffuseLight.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DiffuseLight.fp; path = Chapter06/DiffuseLight/DiffuseLight.fp; sourceTree = "<group>"; };
+		428696ED1F261F11000ED753 /* DiffuseLight.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DiffuseLight.vp; path = Chapter06/DiffuseLight/DiffuseLight.vp; sourceTree = "<group>"; };
+		428696F11F261F1D000ED753 /* Clouds.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clouds.tga; path = Chapter06/Dissolve/Clouds.tga; sourceTree = "<group>"; };
+		428696F21F261F1D000ED753 /* Dissolve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dissolve.cpp; path = Chapter06/Dissolve/Dissolve.cpp; sourceTree = "<group>"; };
+		428696F31F261F1D000ED753 /* Dissolve.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Dissolve.fp; path = Chapter06/Dissolve/Dissolve.fp; sourceTree = "<group>"; };
+		428696F41F261F1D000ED753 /* Dissolve.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Dissolve.vp; path = Chapter06/Dissolve/Dissolve.vp; sourceTree = "<group>"; };
+		428696F91F261F2B000ED753 /* FlatShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FlatShader.cpp; path = Chapter06/FlatShader/FlatShader.cpp; sourceTree = "<group>"; };
+		428696FA1F261F2B000ED753 /* FlatShader.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FlatShader.fp; path = Chapter06/FlatShader/FlatShader.fp; sourceTree = "<group>"; };
+		428696FB1F261F2B000ED753 /* FlatShader.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FlatShader.vp; path = Chapter06/FlatShader/FlatShader.vp; sourceTree = "<group>"; };
+		428696FF1F261F39000ED753 /* ADSTexture.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADSTexture.fp; path = Chapter06/LitTexture/ADSTexture.fp; sourceTree = "<group>"; };
+		428697001F261F39000ED753 /* ADSTexture.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ADSTexture.vp; path = Chapter06/LitTexture/ADSTexture.vp; sourceTree = "<group>"; };
+		428697011F261F39000ED753 /* CoolTexture.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = CoolTexture.tga; path = Chapter06/LitTexture/CoolTexture.tga; sourceTree = "<group>"; };
+		428697021F261F39000ED753 /* LitTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LitTexture.cpp; path = Chapter06/LitTexture/LitTexture.cpp; sourceTree = "<group>"; };
+		428697071F261F47000ED753 /* ProvokingVertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProvokingVertex.cpp; path = Chapter06/ProvokingVertex/ProvokingVertex.cpp; sourceTree = "<group>"; };
+		428697081F261F47000ED753 /* ProvokingVertex.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ProvokingVertex.fp; path = Chapter06/ProvokingVertex/ProvokingVertex.fp; sourceTree = "<group>"; };
+		428697091F261F47000ED753 /* ProvokingVertex.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ProvokingVertex.vp; path = Chapter06/ProvokingVertex/ProvokingVertex.vp; sourceTree = "<group>"; };
+		4286970D1F261F54000ED753 /* ShadedIdentity.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShadedIdentity.fp; path = Chapter06/ShadedTriangle/ShadedIdentity.fp; sourceTree = "<group>"; };
+		4286970E1F261F54000ED753 /* ShadedIdentity.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShadedIdentity.vp; path = Chapter06/ShadedTriangle/ShadedIdentity.vp; sourceTree = "<group>"; };
+		4286970F1F261F54000ED753 /* ShadedTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShadedTriangle.cpp; path = Chapter06/ShadedTriangle/ShadedTriangle.cpp; sourceTree = "<group>"; };
+		428697141F261F8A000ED753 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = stone.tga; path = Chapter06/TexturedTriangle/stone.tga; sourceTree = "<group>"; };
+		428697151F261F8A000ED753 /* TexturedIdentity.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TexturedIdentity.fp; path = Chapter06/TexturedTriangle/TexturedIdentity.fp; sourceTree = "<group>"; };
+		428697161F261F8A000ED753 /* TexturedIdentity.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TexturedIdentity.vp; path = Chapter06/TexturedTriangle/TexturedIdentity.vp; sourceTree = "<group>"; };
+		428697171F261F8A000ED753 /* TexturedTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TexturedTriangle.cpp; path = Chapter06/TexturedTriangle/TexturedTriangle.cpp; sourceTree = "<group>"; };
+		4286971C1F261FA6000ED753 /* ToonShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToonShader.cpp; path = Chapter06/ToonShader/ToonShader.cpp; sourceTree = "<group>"; };
+		4286971D1F261FA6000ED753 /* ToonShader.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ToonShader.fp; path = Chapter06/ToonShader/ToonShader.fp; sourceTree = "<group>"; };
+		4286971E1F261FA6000ED753 /* ToonShader.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ToonShader.vp; path = Chapter06/ToonShader/ToonShader.vp; sourceTree = "<group>"; };
+		428697221F261FB2000ED753 /* Identity.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Identity.fp; path = Chapter06/Triangle/Identity.fp; sourceTree = "<group>"; };
+		428697231F261FB2000ED753 /* Identity.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Identity.vp; path = Chapter06/Triangle/Identity.vp; sourceTree = "<group>"; };
+		428697241F261FB2000ED753 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = Chapter06/Triangle/Triangle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +191,7 @@
 				4286969A1F24B80B000ED753 /* Chapter02 */,
 				428696A71F24C2B8000ED753 /* Chapter03 */,
 				428696B21F24D346000ED753 /* Chapter05 */,
+				428696D31F261D87000ED753 /* Chapter06 */,
 				428696781F24B165000ED753 /* Assets.xcassets */,
 				4286967D1F24B165000ED753 /* Info.plist */,
 				428696721F24B165000ED753 /* Supporting Files */,
@@ -230,6 +303,137 @@
 			name = Tunnel;
 			sourceTree = "<group>";
 		};
+		428696D31F261D87000ED753 /* Chapter06 */ = {
+			isa = PBXGroup;
+			children = (
+				428696DE1F261ED7000ED753 /* ADSGouraud */,
+				428696DD1F261EC1000ED753 /* ADSPhong */,
+				428696DC1F261EB5000ED753 /* DiffuseLight */,
+				428696DB1F261EA9000ED753 /* Dissolve */,
+				428696DA1F261EA0000ED753 /* FlatShader */,
+				428696D91F261E8D000ED753 /* LitTexture */,
+				428696D81F261E83000ED753 /* ProvokingVertex */,
+				428696D71F261E6C000ED753 /* ShadedTriangle */,
+				428697131F261F5B000ED753 /* TexturedTriangle */,
+				428696D51F261E50000ED753 /* ToonShader */,
+				428696D41F261E46000ED753 /* Triangle */,
+			);
+			name = Chapter06;
+			sourceTree = "<group>";
+		};
+		428696D41F261E46000ED753 /* Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				428697221F261FB2000ED753 /* Identity.fp */,
+				428697231F261FB2000ED753 /* Identity.vp */,
+				428697241F261FB2000ED753 /* Triangle.cpp */,
+			);
+			name = Triangle;
+			sourceTree = "<group>";
+		};
+		428696D51F261E50000ED753 /* ToonShader */ = {
+			isa = PBXGroup;
+			children = (
+				4286971C1F261FA6000ED753 /* ToonShader.cpp */,
+				4286971D1F261FA6000ED753 /* ToonShader.fp */,
+				4286971E1F261FA6000ED753 /* ToonShader.vp */,
+			);
+			name = ToonShader;
+			sourceTree = "<group>";
+		};
+		428696D71F261E6C000ED753 /* ShadedTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				4286970D1F261F54000ED753 /* ShadedIdentity.fp */,
+				4286970E1F261F54000ED753 /* ShadedIdentity.vp */,
+				4286970F1F261F54000ED753 /* ShadedTriangle.cpp */,
+			);
+			name = ShadedTriangle;
+			sourceTree = "<group>";
+		};
+		428696D81F261E83000ED753 /* ProvokingVertex */ = {
+			isa = PBXGroup;
+			children = (
+				428697071F261F47000ED753 /* ProvokingVertex.cpp */,
+				428697081F261F47000ED753 /* ProvokingVertex.fp */,
+				428697091F261F47000ED753 /* ProvokingVertex.vp */,
+			);
+			name = ProvokingVertex;
+			sourceTree = "<group>";
+		};
+		428696D91F261E8D000ED753 /* LitTexture */ = {
+			isa = PBXGroup;
+			children = (
+				428696FF1F261F39000ED753 /* ADSTexture.fp */,
+				428697001F261F39000ED753 /* ADSTexture.vp */,
+				428697011F261F39000ED753 /* CoolTexture.tga */,
+				428697021F261F39000ED753 /* LitTexture.cpp */,
+			);
+			name = LitTexture;
+			sourceTree = "<group>";
+		};
+		428696DA1F261EA0000ED753 /* FlatShader */ = {
+			isa = PBXGroup;
+			children = (
+				428696F91F261F2B000ED753 /* FlatShader.cpp */,
+				428696FA1F261F2B000ED753 /* FlatShader.fp */,
+				428696FB1F261F2B000ED753 /* FlatShader.vp */,
+			);
+			name = FlatShader;
+			sourceTree = "<group>";
+		};
+		428696DB1F261EA9000ED753 /* Dissolve */ = {
+			isa = PBXGroup;
+			children = (
+				428696F11F261F1D000ED753 /* Clouds.tga */,
+				428696F21F261F1D000ED753 /* Dissolve.cpp */,
+				428696F31F261F1D000ED753 /* Dissolve.fp */,
+				428696F41F261F1D000ED753 /* Dissolve.vp */,
+			);
+			name = Dissolve;
+			sourceTree = "<group>";
+		};
+		428696DC1F261EB5000ED753 /* DiffuseLight */ = {
+			isa = PBXGroup;
+			children = (
+				428696EB1F261F11000ED753 /* DiffuseLight.cpp */,
+				428696EC1F261F11000ED753 /* DiffuseLight.fp */,
+				428696ED1F261F11000ED753 /* DiffuseLight.vp */,
+			);
+			name = DiffuseLight;
+			sourceTree = "<group>";
+		};
+		428696DD1F261EC1000ED753 /* ADSPhong */ = {
+			isa = PBXGroup;
+			children = (
+				428696E51F261F02000ED753 /* ADSPhong.cpp */,
+				428696E61F261F02000ED753 /* ADSPhong.fp */,
+				428696E71F261F02000ED753 /* ADSPhong.vp */,
+			);
+			name = ADSPhong;
+			sourceTree = "<group>";
+		};
+		428696DE1F261ED7000ED753 /* ADSGouraud */ = {
+			isa = PBXGroup;
+			children = (
+				428696DF1F261EF3000ED753 /* ADSGouraud.cpp */,
+				428696E01F261EF3000ED753 /* ADSGouraud.fp */,
+				428696E11F261EF3000ED753 /* ADSGouraud.vp */,
+			);
+			name = ADSGouraud;
+			sourceTree = "<group>";
+		};
+		428697131F261F5B000ED753 /* TexturedTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				428697141F261F8A000ED753 /* stone.tga */,
+				428697151F261F8A000ED753 /* TexturedIdentity.fp */,
+				428697161F261F8A000ED753 /* TexturedIdentity.vp */,
+				428697171F261F8A000ED753 /* TexturedTriangle.cpp */,
+			);
+			name = TexturedTriangle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -288,20 +492,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428696F01F261F11000ED753 /* DiffuseLight.vp in Resources */,
+				428696E31F261EF3000ED753 /* ADSGouraud.fp in Resources */,
+				4286971A1F261F8A000ED753 /* TexturedIdentity.vp in Resources */,
+				428696F51F261F1D000ED753 /* Clouds.tga in Resources */,
 				428696791F24B165000ED753 /* Assets.xcassets in Resources */,
 				428696C21F24D62C000ED753 /* stone.tga in Resources */,
 				4286968D1F24B1E6000ED753 /* floor.tga in Resources */,
+				428696F71F261F1D000ED753 /* Dissolve.fp in Resources */,
+				4286970C1F261F47000ED753 /* ProvokingVertex.vp in Resources */,
+				428697101F261F54000ED753 /* ShadedIdentity.fp in Resources */,
 				428696BC1F24D61F000ED753 /* brick.tga in Resources */,
+				428697251F261FB2000ED753 /* Identity.fp in Resources */,
 				4286968C1F24B1E6000ED753 /* Block6.tga in Resources */,
+				428696FE1F261F2B000ED753 /* FlatShader.vp in Resources */,
+				428696FD1F261F2B000ED753 /* FlatShader.fp in Resources */,
+				428697201F261FA6000ED753 /* ToonShader.fp in Resources */,
+				428696EA1F261F02000ED753 /* ADSPhong.vp in Resources */,
 				4286968A1F24B1E6000ED753 /* Block4.tga in Resources */,
 				428696D11F24D649000ED753 /* floor.tga in Resources */,
 				428696D01F24D649000ED753 /* ceiling.tga in Resources */,
+				428697031F261F39000ED753 /* ADSTexture.fp in Resources */,
+				428697181F261F8A000ED753 /* stone.tga in Resources */,
 				428696C81F24D63D000ED753 /* Marslike.tga in Resources */,
+				4286970B1F261F47000ED753 /* ProvokingVertex.fp in Resources */,
 				428696BE1F24D61F000ED753 /* floor.tga in Resources */,
+				428696E91F261F02000ED753 /* ADSPhong.fp in Resources */,
+				428697051F261F39000ED753 /* CoolTexture.tga in Resources */,
+				428696F81F261F1D000ED753 /* Dissolve.vp in Resources */,
+				428696EF1F261F11000ED753 /* DiffuseLight.fp in Resources */,
 				428696C91F24D63D000ED753 /* MoonLike.tga in Resources */,
 				4286968B1F24B1E6000ED753 /* Block5.tga in Resources */,
+				428696E41F261EF3000ED753 /* ADSGouraud.vp in Resources */,
+				428697111F261F54000ED753 /* ShadedIdentity.vp in Resources */,
+				428697261F261FB2000ED753 /* Identity.vp in Resources */,
+				428697211F261FA6000ED753 /* ToonShader.vp in Resources */,
 				428696CF1F24D649000ED753 /* brick.tga in Resources */,
 				428696BD1F24D61F000ED753 /* ceiling.tga in Resources */,
+				428697191F261F8A000ED753 /* TexturedIdentity.fp in Resources */,
+				428697041F261F39000ED753 /* ADSTexture.vp in Resources */,
 				428696C71F24D63D000ED753 /* Marble.tga in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,18 +543,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				428696AE1F24C2D3000ED753 /* GeoTest.cpp in Sources */,
+				428696E81F261F02000ED753 /* ADSPhong.cpp in Sources */,
+				4286971B1F261F8A000ED753 /* TexturedTriangle.cpp in Sources */,
+				428697121F261F54000ED753 /* ShadedTriangle.cpp in Sources */,
 				428696AD1F24C2D3000ED753 /* Blending.cpp in Sources */,
+				428696FC1F261F2B000ED753 /* FlatShader.cpp in Sources */,
 				428696C11F24D62C000ED753 /* Pyramid.cpp in Sources */,
+				4286970A1F261F47000ED753 /* ProvokingVertex.cpp in Sources */,
+				428696F61F261F1D000ED753 /* Dissolve.cpp in Sources */,
 				428696A51F24B8CA000ED753 /* Move.cpp in Sources */,
+				428696EE1F261F11000ED753 /* DiffuseLight.cpp in Sources */,
 				428696BB1F24D61F000ED753 /* Anisotropic.cpp in Sources */,
+				428697061F261F39000ED753 /* LitTexture.cpp in Sources */,
 				428696AF1F24C2D3000ED753 /* Primitives.cpp in Sources */,
+				4286971F1F261FA6000ED753 /* ToonShader.cpp in Sources */,
 				428696991F24B730000ED753 /* main.cpp in Sources */,
 				428696A41F24B8CA000ED753 /* Bounce.cpp in Sources */,
 				428696B11F24C2D3000ED753 /* Smoother.cpp in Sources */,
+				428697271F261FB2000ED753 /* Triangle.cpp in Sources */,
 				428696A61F24B8CA000ED753 /* Triangle.cpp in Sources */,
 				428696891F24B1E6000ED753 /* Block.cpp in Sources */,
 				428696CA1F24D63D000ED753 /* SphereWorld.cpp in Sources */,
 				428696B01F24C2D3000ED753 /* Scissor.cpp in Sources */,
+				428696E21F261EF3000ED753 /* ADSGouraud.cpp in Sources */,
 				428696D21F24D649000ED753 /* Tunnel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
